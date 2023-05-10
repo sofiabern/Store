@@ -4,6 +4,7 @@
   --dark-text-color: #383230;
   --black-text-color: #000000;
   --second-dark-text-color: #555555;
+  --third-dark-text-color: #8c8c8c;
   /* Background color */
   --dark-bg-color: #383230;
   --light-bg-color: #f9f7f4;
@@ -277,4 +278,134 @@ img {
   line-height: 1.6;
 
   color: var(--second-dark-text-color);
+}
+
+/* New arrivals section */
+.new-arrivals {
+  padding-top: 119px;
+}
+
+.new-arrivals .flex {
+  gap: 109px;
+  flex-wrap: wrap;
+}
+
+.new-arrival-left-part {
+  width: 347px;
+}
+
+.new-arrivals-title {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.6;
+  letter-spacing: 2.4px;
+
+  color: var(--black-text-color);
+}
+
+.new-arrivals-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.71;
+
+  color: var(--black-text-color);
+}
+
+.new-arrivals-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.08;
+
+  color: var(--black-text-color);
+}
+
+.new-arrivals-list {
+  display: flex;
+  gap: 9px;
+}
+
+.new-arrivals-item {
+}
+
+.first-product .new-arrivals-subtitle {
+  width: 218px;
+}
+
+.second-product .new-arrivals-subtitle {
+  width: 255px;
+}
+
+.new-arrivals-listlink {
+}
+
+.new-arrrivals-wrapper {
+}
+
+.new-arrivals-subtitle {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+
+  color: var(--dark-text-color);
+}
+
+.new-arrivals-descr1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+
+  color: var(--third-dark-text-color);
+}
+
+.new-arrivals-descr2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6;
+
+  color: var(--dark-text-color);
+}
+
+.new-arrivals-descr3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6;
+
+  color: var(--dark-text-color);
+}
+
+.new-arrivals-descr4 {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.09;
+  text-transform: uppercase;
+
+  color: var(--black-text-color);
+}
+
+.new-arrivals-descr5 {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.09;
+  text-transform: uppercase;
+
+  color: var(--third-dark-text-color);
 }
