@@ -1,0 +1,280 @@
+:root {
+  /* Text color */
+  --white-text-color: #ffffff;
+  --dark-text-color: #383230;
+  --black-text-color: #000000;
+  --second-dark-text-color: #555555;
+  /* Background color */
+  --dark-bg-color: #383230;
+  --light-bg-color: #f9f7f4;
+}
+
+body {
+  background-color: #fefdfc;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1070px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/* Community section */
+.community {
+  background-color: var(--dark-bg-color);
+}
+
+.community-text {
+  padding: 6px 0;
+
+  font-family: "IBM Plex Mono";
+  font-size: 11px;
+  line-height: 1.64;
+  text-transform: uppercase;
+
+  color: var(--white-text-color);
+}
+
+.community-list {
+  margin-left: auto;
+  display: flex;
+  gap: 32px;
+}
+
+.community-item {
+  display: inline-flex;
+}
+
+.community-link {
+  padding-top: 7px;
+  padding-bottom: 11px;
+
+  font-family: "IBM Plex Mono";
+  font-size: 11px;
+  line-height: 1.09;
+  text-transform: uppercase;
+
+  color: var(--white-text-color);
+}
+
+/* Header */
+
+.logo {
+  margin-right: 203px;
+  padding-top: 20px;
+  padding-bottom: 21px;
+}
+
+.header-list {
+  margin-right: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.header-item {
+  display: inline-flex;
+}
+
+.header-link {
+  padding-top: 22px;
+  padding-bottom: 27px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1;
+
+  color: var(--dark-text-color);
+}
+
+.header-signin {
+  padding-top: 22px;
+  padding-bottom: 27px;
+  margin-right: 19px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+
+  color: var(--dark-text-color);
+}
+
+.header-search-link {
+  margin-right: 23px;
+  padding-top: 22px;
+  padding-bottom: 23px;
+}
+
+.header-cart-link {
+  padding-top: 22px;
+  padding-bottom: 23px;
+}
+
+/* Luxury section */
+.luxury {
+  padding-top: 76px;
+  padding-bottom: 83px;
+  background-color: var(--light-bg-color);
+}
+
+.luxury-title {
+  margin: 0 auto;
+  max-width: 490px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.6;
+  letter-spacing: 3.2px;
+
+  color: var(--black-text-color);
+}
+
+/* Big photo section */
+.big-product-photo {
+  margin: 0 auto;
+}
+
+/* Learn more section */
+.learn-more {
+  padding-top: 78px;
+  padding-bottom: 86px;
+}
+
+.learn-more-text {
+  margin: 0 auto;
+  margin-bottom: 43px;
+  max-width: 590px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.41;
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: var(--black-text-color);
+}
+
+.learn-more-link {
+  display: block;
+  margin: 0 auto;
+  max-width: 76px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--black-text-color);
+}
+
+/* Brand's section */
+.brands {
+  background-color: var(--light-bg-color);
+}
+
+.brands-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.brands-link {
+  display: inline-flex;
+}
+
+.brands-1,
+.brands-2,
+.brands-3,
+.brands-4 {
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+
+.brands-5,
+.brands-6 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* First product section */
+.first-product-section {
+  padding-top: 100px;
+}
+
+.first-prsec-list {
+  display: flex;
+  gap: 40px;
+}
+
+/* .first-prsec-item {
+} */
+
+/* .first-prsec-link {
+} */
+
+/* .first-prsec-photo {
+} */
+
+.first-prsec-wrapper {
+  padding-top: 8px;
+}
+
+.first-prsec-subtitle {
+  margin-bottom: 11px;
+
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.34;
+  letter-spacing: 0.7px;
+
+  color: var(--black-text-color);
+}
+
+.first-prsec-text {
+  width: 500px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+
+  color: var(--second-dark-text-color);
+}
